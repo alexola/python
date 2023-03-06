@@ -41,6 +41,19 @@ print('  2) The Great')
 print('  3) The Wise')
 print('  4) The Bold')
 
+answer = int(input('Enter answer (1-4): '))
+
+if answer == 1:
+  hufflepuff += 2
+elif answer == 2:
+  slytherin += 2
+elif answer == 3:
+  ravenclaw += 2
+elif answer == 4:
+  gryffindor += 2
+else:
+  print('Wrong input.')
+
 #Q3
 print('\nQ3) Which kind of instrument most pleases your ear?')
 
